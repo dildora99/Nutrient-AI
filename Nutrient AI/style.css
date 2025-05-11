@@ -1,0 +1,50 @@
+/* Main background */
+.stApp {
+    background-color: #f9f9f9;
+}
+
+/* Input field styling */
+.stTextInput>div>div>input {
+    border-radius: 10px !important;
+    padding: 12px !important;
+    border: 1px solid #4CAF50 !important;
+}
+
+/* Button animations */
+.stButton>button {
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: scale(1.02);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4CAF50;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #45a049;
+}
+
+/* Card shadows */
+.css-1aumxhk {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.css-1aumxhk:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+}
